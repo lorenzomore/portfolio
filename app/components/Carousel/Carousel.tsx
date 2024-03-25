@@ -56,7 +56,6 @@ export default function EmblaCarousel({ projectId }: props) {
       <div
         className={styles.embla}
         ref={emblaRef}
-        style={{ gridArea: "1/4/1/13" }}
       >
         <div className={styles.embla__container}>
           <Slide projectId={projectId} />
