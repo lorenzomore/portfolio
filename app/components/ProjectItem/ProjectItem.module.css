@@ -1,0 +1,30 @@
+.projWrap{
+    /*margin: 3rem;*/
+    position: relative;
+    
+}
+
+.projCover{
+    overflow: hidden;
+    transition: 0.8s;
+}
+
+.projTitle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    padding:1rem;
+    color:black;
+    background-color: white;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.projWrap:hover .projTitle{
+    opacity: 1;
+}
+.projWrap:hover .projCover{
+    opacity:0.6;
+}

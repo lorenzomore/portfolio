@@ -1,0 +1,10 @@
+.contentWrap{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:3rem;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30vh,50vh));
+    grid-auto-rows:minmax(30vh,40vh);
+    
+}

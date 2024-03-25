@@ -1,0 +1,20 @@
+.contentWrap{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:3rem;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem,30rem));
+    column-gap: 2rem;
+    grid-auto-rows:minmax(20rem,30rem);
+    row-gap: 2rem;
+    
+}
+
+@media (max-width:480px) {
+    .contentWrap{
+        grid-template-columns: 60vw;
+        grid-auto-rows: 60vw;
+        row-gap: 1rem;
+    }
+}

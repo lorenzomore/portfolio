@@ -1,0 +1,31 @@
+{
+    "california": {
+        "title": "California",
+        "caption": "California 2022: set of images captured during my travel to california between july and august 2022",
+        "images": [
+            "venice_skate1.jpg",
+            "venice_skate2.jpg",
+            "venice.jpg",
+            "pacificpark.jpg",
+            "downtown1.jpg",
+            "malibu.jpg",
+            "pier39.jpg",
+            "sequoia.jpg"
+        ]
+    },
+    "bernina": {
+        "title": "Bernina",
+        "caption": "Bernina 2024",
+        "images": [
+            "bernina1.jpg",
+            "bernina2.jpg",
+            "bernina3.jpg",
+            "bernina4.jpg",
+            "bernina5.jpg",
+            "alpgrum1.jpg",
+            "alpgrum2.jpg",
+            "morteratsch.jpg",
+            "poschiavo.jpg"
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+.embla {
+  overflow: hidden;
+  max-width: 60%;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.embla__container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  /* Each slide covers 100% of the viewport */
+}
+
+.embla__slide {
+  flex: 0 0 auto;
+  display: grid;
+  justify-content: center;
+  min-width: 0;
+
+}
+
+.carouselImage {
+  height: auto;
+  max-height: 80vh;
+  width: auto;
+}
+
+.carouselBtn{
+  justify-self: center;
+  padding: 2rem;
+}
+.carouselBtn img{
+  width: 16px;
+  height: 16px;
+}
+
+.carouselWrapper {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: auto auto;
+  /* grid areas defined in Carousel.tsx */
+  align-items: center;
+  justify-content: center;
+}
+
+.caption {
+  margin: 3rem;
+}
