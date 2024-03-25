@@ -1,7 +1,7 @@
 import NavBar from '../components/NavBar/NavBar';
 import ProjectItem from '../components/ProjectItem/ProjectItem';
 import styles from './page.module.css';
-import * as ProjectManager from '../utils/projectsManager'
+import * as ProjectManager from '../utils/projectsManager';
 
 function ProjectsGallery(){
   let ProjArray = ProjectManager.getProjectsList();
