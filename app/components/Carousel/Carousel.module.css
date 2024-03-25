@@ -17,6 +17,7 @@
   display: grid;
   justify-content: center;
   min-width: 0;
+  padding: 1rem;
 
 }
 
