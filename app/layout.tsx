@@ -1,6 +1,18 @@
 import type { Metadata,Viewport } from "next";
 import "./globals.css";
+import localfont from "next/font/local";
+import nextConfig from '../next.config.mjs';
 
+// Fonts Import
+const MonumentGrotesk = localfont({
+  src:'../public/fonts/MonumentGrotesk-Medium.woff2',
+  variable: '--font-medium'  
+})
+
+const MonumentGroteskMono = localfont({
+  src:'../public/fonts/MonumentGrotesk-Mono.woff2',
+  variable: '--font-mono'  
+})
 
 export const metadata: Metadata = {
   title: "Portfolio",
@@ -24,7 +36,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${MonumentGrotesk.variable} ${MonumentGroteskMono.variable}`}>{children}</body>
     </html>
   );
 }

@@ -3,18 +3,18 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@font-face {
+/*@font-face {
   font-family: "MonumentGroteskMedium";
   font-weight: 500;
   font-style: normal;
-  src: url(/../fonts/MonumentGrotesk-Medium.woff2) format(woff2);
-}
-@font-face {
+  src: url('./../public/fonts/MonumentGrotesk-Medium.woff2') format(woff2);
+}*/
+/*@font-face {
   font-family: "MonumentGroteskMono";
   font-weight: normal;
   font-style: normal;
-  src: url(/../fonts/MonumentGrotesk-Mono.woff2) format(woff2);
-}
+  src: url(./../public/fonts/MonumentGrotesk-Mono.woff2) format(woff2);
+}*/
 :root {
   --foreground-rgb: 0, 0, 0;
 }
@@ -24,7 +24,9 @@ body {
   color: #404040;
   background-color: #FFFFFF;
   /*font-family: 'Courier New', monospace;*/
-  font-family: 'MonumentGroteskMono';
+  font-family: var(--font-mono);
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
 }
 
