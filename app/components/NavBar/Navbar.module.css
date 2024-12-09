@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 .navWrap {
   height: 5rem;
   margin-left: 2rem;
@@ -7,7 +9,8 @@
 }
 
 .title {
-  font-family: var(--font-medium);
+  /*font-family: var(--font-medium);*/
+  font-family: 'Courier New', monospace;
   font-size: 20px;
   color: #525252;
 }
