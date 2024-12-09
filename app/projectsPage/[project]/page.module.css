@@ -1,7 +1,7 @@
 .contentWrap{
     margin-left: 10%;
     margin-right: 10%;
-    margin-top:3rem;
+    margin-top:auto;
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(30vh,50vh));
