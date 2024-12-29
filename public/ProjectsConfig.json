@@ -28,5 +28,22 @@
             "morteratsch.jpg",
             "poschiavo.jpg"
         ]
+    },
+    "helsinki": {
+        "title": "Helsinki",
+        "caption": "may 2024",
+        "images": [
+            "helsinki_10.jpg",
+            "helsinki_4.jpg",
+            "helsinki_5.jpg",
+            "helsinki_6.jpg",
+            "helsinki_7.jpg",
+            "helsinki_9.jpg",
+            "helsinki_1.jpg",
+            "helsinki_11.jpg",
+            "helsinki_4.jpg",
+            "helsinki_2.jpg",
+            "helsinki_3.jpg"
+        ]
     }
 }
