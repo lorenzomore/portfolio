@@ -30,7 +30,7 @@ export default function NavBar ({idToUnderline}:navProps){
         <div className={styles.navWrap}>
             <Link href="/" ><h1 className={styles.title}>Lorenzo Moreschi</h1></Link>
             <div className={styles.links}>
-                <NavMenuItem id="projectsId" href="/projectsPage" name="projects" idToUnderline={idToUnderline}/>
+                {/*<NavMenuItem id="projectsId" href="/projectsPage" name="projects" idToUnderline={idToUnderline}/>*/}
                 <NavMenuItem id="aboutId" href="/about"  name="about" idToUnderline={idToUnderline} />
 
             </div>

@@ -2,10 +2,11 @@ import Image from "next/image";
 import NavBar from "./components/NavBar/NavBar";
 import styles from "./page.module.css";
 import nextConfig from '../next.config.mjs';
+import ProjectsPage from "./projectsPage/page";
 
 export default function Page() {
   return (
-    <div>
+    /*<div>
       <NavBar idToUnderline=""/>
       <div className={styles.homeContenWrap}>
         <div />
@@ -30,6 +31,8 @@ export default function Page() {
           src={`${nextConfig.basePath}/images/california/venice_skate1.jpg`}
         />
       </div>
-    </div>
+    </div>*/
+    //removed homepage gallery; replaced with projects page
+    <ProjectsPage/>
   );
 }
