@@ -45,5 +45,19 @@
             "helsinki_2.jpg",
             "helsinki_3.jpg"
         ]
+    },
+    "bw": {
+        "title": "B&W",
+        "caption": "B&W over the years",
+        "images": [
+            "bw1.jpg",
+            "bw2.jpg",
+            "bw3.jpg",
+            "bw4.jpg",
+            "bw5.jpg",
+            "bw6.jpg",
+            "bw7.jpg",
+            "bw8.jpg"
+        ]
     }
 }
